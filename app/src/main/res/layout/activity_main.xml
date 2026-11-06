@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Kullanıcı Girişi"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:id="@+id/user"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:background="@android:drawable/edit_text"
+        android:textColor="@color/black"
+        />
+
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="bir sifre giriniz"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/pwd"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Giriş"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginRight="25dp"
+            android:id="@+id/giris"
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="kayit"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/kayit"/>
+
+    </LinearLayout>
+
+</LinearLayout>

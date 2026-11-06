@@ -1,0 +1,2 @@
+# sinavUygulama
+Mobil Uygulama Sınavı

@@ -1,11 +1,7 @@
 # Sınav Uygulaması (Exam Application)
 
-Bu proje, Android Studio kullanılarak geliştirilmiş bir Android sınav/test uygulamasıdır.
+Bu proje, Android Studio kullanılarak geliştirilmiş bir Android sınav uygulamasıdır.
 
-## Özellikler
-* Kullanıcı dostu arayüz
-* Sınav yönetimi ve soru takibi
-* Hızlı ve optimize edilmiş yapı
 
 ## 🛠️ Kurulum ve Çalıştırma
 
